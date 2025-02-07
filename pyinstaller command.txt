@@ -1,1 +1,1 @@
-﻿pyinstaller --onefile --noconsole scripts\test.py
+﻿pyinstaller --onefile --noconsole scripts\hello.py
