@@ -1,59 +1,95 @@
-﻿{
+﻿    {
     "params" : [
         {
             "name" : "R Finger 1",
             "address" : "/avatar/parameters/Finger1",
-            "value" : 0.0
+            "value" : 0.3,
+            "type": "float"
         },
         {
             "name" : "R Finger 2",
             "address" : "/avatar/parameters/Finger2",
-            "value" : 0.0
+            "value" : 0.3,
+            "type": "float"
         },
         {
             "name" : "R Finger 3",
             "address" : "/avatar/parameters/Finger3",
-            "value" : 0.0
+            "value" : 0.3,
+            "type": "float"
         },
         {
             "name" : "R Finger 4",
             "address" : "/avatar/parameters/Finger4",
-            "value" : 0.0
+            "value" : 0.3,
+          "type": "float"
         },
         {
             "name" : "R Finger 5",
             "address" : "/avatar/parameters/Finger5",
-            "value" : 0.0
+            "value" : 0.3,
+          "type": "float"
         },
         {
             "name" : "L Finger 1",
             "address" : "/avatar/parameters/Finger6",
-            "value" : 0.0
+            "value" : 0.3,
+          "type": "float"
         },
         {
             "name" : "L Finger 2",
             "address" : "/avatar/parameters/Finger7",
-            "value" : 0.0
+            "value" : 0.3,
+          "type": "float"
         },
         {
             "name" : "L Finger 3",
             "address" : "/avatar/parameters/Finger8",
-            "value" : 0.0
+            "value" : 0.3,
+          "type": "float"
         },
         {
             "name" : "L Finger 4",
             "address" : "/avatar/parameters/Finger9",
-            "value" : 0.0
+            "value" : 0.3,
+         "type": "float"
         },
         {
             "name" : "L Finger 5",
-            "address" : "/avatar/parameters/Finger10.0",
-            "value" : 0.0
+            "address" : "/avatar/parameters/Finger10",
+            "value" : 0.3,
+            "type": "float"
         },
         {
-            "name": "Test",
-            "address": "/avatar/parameters/Test",
-            "value": 0.0
+            "name": "UseHandTracking",
+            "address": "/avatar/parameters/UseHandTracking",
+            "value": true,
+            "type": "bool"
+        },
+        {
+            "name": "HideBelt",
+            "address": "/avatar/parameters/HideBelt",
+            "value": true,
+            "type": "bool"
+        },
+        {
+            "name": "HideJacket",
+            "address": "/avatar/parameters/HideJacket",
+            "value": true,
+            "type": "bool"
+        },
+        {
+            "name": "HideStocking",
+            "address": "/avatar/parameters/HideStocking",
+            "value": true,
+            "type": "bool"
+        },
+        {
+            "name": "AFK",
+            "address": "/avatar/parameters/AFK",
+            "value": true,
+            "type": "bool",
+            "mode" : "receive"
         }
     ]
-}
+    }
