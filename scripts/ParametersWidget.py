@@ -177,7 +177,7 @@ class MainView(QWidget):
             if param.mode == "send":
                 value = param.get_value()
                 self.osc_client.send_message(param.address, value)
-                print(f"Sent: {param.address} -> {value}")
+                # print(f"Sent: {param.address} -> {value}")
 
     def receive_osc_data(self, address, *args):
         for param in self.parameters:

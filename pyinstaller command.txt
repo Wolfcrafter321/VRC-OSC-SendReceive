@@ -1,1 +1,1 @@
-﻿pyinstaller --onefile --noconsole scripts\hello.py
+﻿pyinstaller --onefile --noconsole scripts\ParametersWidget.py
