@@ -1,6 +1,8 @@
 # VRC-OSC-SendReceive
 Wolfy's VRChat OSC Tool 🐺
 
+![SampleImage](/image/sample.png)
+
 ## What is This?　これは何?
 You can send custom parameters to VRChat.
 Just this.
